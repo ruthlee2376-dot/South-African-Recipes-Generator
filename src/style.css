@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 230, 109) 11.2%,
+    rgb(87, 232, 107) 100.2%
+  );
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #1f6f78;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #1f6f78;
+}
+
+form {
+  padding: 30px;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  box-shadow: 20px 20px 30px wheat;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  border-right: 3px solid #155263;
+}
+
+.instructions {
+  padding: 16px;
+  border: 2px solid #1f6f78;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  padding: 16px 24px;
+  border: 2px solid yellowgreen;
+  width: 20%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  line-height: 20px;
+  color: yellowgreen;
+  background: #1f6f78;
+  margin-left: 10px;
+}
+
+.recipe {
+  padding: 30px;
+  background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+  box-shadow: 20px 20px 30px wheat;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  line-height: 2;
+  border-left: 3px solid #155263;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
