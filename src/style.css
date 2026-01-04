@@ -32,6 +32,7 @@ h1 {
   color: #f96d00;
   background: whitesmoke;
   opacity: 1;
+  border-radius: 10px;
 }
 
 .form-container {
